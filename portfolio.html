@@ -15,7 +15,9 @@
     wf.async = 'true';
     var s = document.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(wf, s);
-  })(); </script>
+  })(); 
+
+  </script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
@@ -82,33 +84,36 @@
 			
 				<h1>Masters in Computing studies</h1>
 				<div class="course-tag">
-					<a class="btn" data-toggle="collapse" href="#seie" aria-expanded="false" aria-controls="seie">Software Enterprise: Inception & Elaboration </a>
-					<div class="collapse" id="seie">
-					  <div class="well">
-						Software Enterprise: Inception & Elaboration
-					  </div>
-					</div>
-					<br>
-					<a class="btn" data-toggle="collapse" href="#adsa" aria-expanded="false" aria-controls="adsa">Advance Data Structured Algorithms</a>
-					<div class="collapse" id="adsa">
-					  <div class="well">
-						Advance Data Structured Algorithms
-					  </div>
-					</div>
-					<br>
+					<a class="btn" role="button" data-toggle="popover" data-trigger="hover" title="Grade: A" data-content="Project-centric course focusing on the relationship of software processes to entrepreneurship and business processes; requirements specification and requirements analysis; study of the context and evolution of the software enterprise. The first of a two-semester sequence.">Software Enterprise: Inception & Elaboration </a>
 					
-					<a class="btn" href="#">Software Enterprise: Project & Process Management</a><a class="btn" href="#">Database Technology</a><a class="btn" href="#">Cloud Computing</a><a class="btn" href="#">Thesis</a><a class="btn" href="#">Computer Architecture</a>
-				<a class="btn" href="#">Languages and Programming Paradigms</a> </div>
-				<p> How big is the CFAM intterface requirements/ are there big changes required? confirm this. 
-
-					Phase 1 is p
-					talk to Dave and how hard is it to write the iDOc to avoid issues.
-
-					What kind of resources we will need to test the new interfaces. Agile FTE requirements?
-
-					ECCN is part of which phase? Do it need it in phase 1 and 2
+					<a class="btn" role="button" data-toggle="popover" data-trigger="hover" title="Grade: B+" data-content="Advanced algorithms and how they are effectively applied to solve problems. Algorithm design, analysis, classification, optimization, and application. Practice implementing and employing algorithms to solve realistic problems.">Advance Data Structured Algorithms</a>
 					
-				</p>
+					<a class="btn" role="button" data-toggle="popover" data-trigger="hover" title="Grade: A+" data-content="Project-centric course focusing on software process, project management, and technical leadership. Study of the context and evolution of software enterprise project management. The second of a two-semester sequence.">Software Enterprise: Project & Process Management</a>
+					
+					<a class="btn" role="button" data-toggle="popover" data-trigger="hover" title="Grade: A+" data-content="This course gives an introduction to the design and programming of database systems. It also teaches the ER (entity-relationship) approach to data modelling along with relational model of database management systems (DBMS) and use of query languages such as SQL. Others topics covered are relational algebra and the use of SQL in a programming environment along with query processing and the role of transaction management.">Database Technology</a>
+					
+					<a class="btn" role="button" data-toggle="popover" data-trigger="hover" title="Grade: A" data-content="The course is designed to introduce cloud computing to CS curricula and provide students the fundamental background of cloud computing enabling technologies with hands-on experience.">Cloud Computing</a>
+					
+					<a class="btn" role="button" data-toggle="popover" data-trigger="hover" title="Dependency Analysis in the HTML5, JavaScript and CSS3 Stack" data-content="This thesis focuses on listing and defining all dependencies between HTML5, JavaScript and CSS3 that will help developers better understand the interconnections within these languages. We also explore the present techniques available to a developer to make his code free of dependency related defects.">Thesis</a>
+					
+					<a class="btn" role="button" data-toggle="popover" data-trigger="hover" title="Grade: A+" data-content="The course covers the basics of computer architecture. RTN, RISC, CISC concepts, computer arithmetic, ALUs, memory systems and I/O." >Computer Architecture</a>
+					
+					<a class="btn" role="button" data-toggle="popover" data-trigger="hover" title="Grade: A" data-content="The course covers the principles of programming and
+					programming languages using a project-based approach that is programming intensive. Various programming language paradigms are used and compared, such as imperative compiled to object-code, and compiled to byte-code, object-oriented, static, functional, scripting, dynamic and declarative languages.">Languages and Programming Paradigms</a> 
+				
+				</div>
+				<br>
+				<div class="image-container asu-img-container">
+					<img id= "asu-image" src="img/asu.png" alt="asu logo" >
+				</div>
+				
+					<h1>Bachelor of Technology</h1>
+					<h2>ELectronics and Communication Engineering</h2>
+					<p>This four year program covered Digital Signal Processing, Active Circuits, Data Communications & Networking, Mobile and Wireless communications, High Speed Networks, Optical Networks and VLSI & Micro-electronics.</p>
+					<div class="course-tag">
+					
+					</div>
+				
 			</div>
 		</div>
 		</div>
@@ -118,7 +123,13 @@
 </div>
 <script src="js/jquery-2.1.4.min.js"></script>	
 <script src="bootstrap/js/bootstrap.min.js"></script>
-
+<script src="bootstrap/js/tooltip.js"></script>
+<script src="bootstrap/js/popover.js"></script>
+<script>
+  $(function () {
+  $('[data-toggle="popover"]').popover()
+})
+ </script>
 </body>
 
 </html>

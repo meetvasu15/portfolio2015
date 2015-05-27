@@ -138,21 +138,27 @@ box-shadow: 0px 10px 25px rgba(136, 136, 136, 0.48);
 	margin:8px;
  }
  .education-description h1 { color: rgba(113, 108, 108, 0.66);  font-size: 36px; font-weight: normal; line-height: 54px; margin: 20px 0 10px 0; }
+ .education-description h2 { color: rgba(113, 108, 108, 0.66);  font-size: 30px; font-weight: normal; line-height: 24px; margin: 20px 0 10px 0; }
 
  .education-description p { color: #333333; font-size: 18px; line-height: 28px; margin: 0 0 28px; }
   .course-tag{
 	/*text-align:center;*/
   }
- .course-tag  a{
+  .course-tag{
+	text-align:center;
+  }
+ .course-tag  a,
+ .course-tag a:hover,
+.course-tag a:active{
  background-color:rgb(235, 113, 30);
   border: 1px solid rgb(235, 113, 30);
   color:white;
   font-size: 24px;
   margin:4px
  }
-.course-tag a:hover,
+/*.course-tag a:hover,
 .course-tag a:active{
 	background-color:rgba(235, 113, 30,0.3);
 	border: 1px solid rgb(235, 113, 30);
 	  color:white;
-}
+}*/
