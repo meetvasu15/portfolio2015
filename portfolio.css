@@ -124,6 +124,17 @@ font-size: large;
   border: 1px solid rgb(235, 113, 30);
   background-color: rgb(235, 113, 30);
   }
+   #prof-exp-bar{
+  font-size:30px;
+  border: 1px solid  rgb(74, 142, 208);
+  background-color: rgb(74, 142, 208);
+  }
+  
+  #projects-bar{
+  font-size:30px;
+  border: 1px solid  rgb(255, 192, 0);
+  background-color: rgb(255, 192, 0);
+  }
   .detail-container{
   padding: 0;
   position:relative;
