@@ -43,7 +43,7 @@ height:100%;
     -webkit-transform: skew(0deg,1deg); /* Chrome, Safari, Opera */
     transform: skew(0deg,1deg);
 	border-top: 5px solid rgba(97, 209, 117,0.7);
-	height:200%;/*remove this after developemnt is completet*/
+	/*height:200%;remove this after developemnt is completet*/
 }
 /*the image dimension is 6000 to 4000 so the widtha nd height need to be 3/2*/
 #cover-image{ 
@@ -148,10 +148,11 @@ box-shadow: 0px 10px 25px rgba(136, 136, 136, 0.48);
  .asu-img-container{
 	margin:8px;
  }
- .education-description h1 { color: rgba(113, 108, 108, 0.66);  font-size: 36px; font-weight: normal; line-height: 54px; margin: 20px 0 10px 0; }
- .education-description h2 { color: rgba(113, 108, 108, 0.66);  font-size: 30px; font-weight: normal; line-height: 24px; margin: 20px 0 10px 0; }
+ .content-description h1 { color: rgba(113, 108, 108, 0.7);  font-size: 36px; font-weight: normal; line-height: 54px; margin: 20px 0 10px 0; }
+ .content-description h2 { color: rgba(113, 108, 108, 0.7);  font-size: 30px; font-weight: normal; line-height: 24px; margin: 20px 0 10px 0; }
+.content-description h3 { color: rgba(113, 108, 108, 0.7);  font-size: 24px; font-weight: normal; line-height: 18px; margin: 12px 0 10px 0; }
 
- .education-description p { color: #333333; font-size: 18px; line-height: 28px; margin: 0 0 28px; }
+ .content-description p { color: #333333; font-size: 18px; line-height: 28px; margin: 0 0 10px; }
   .course-tag{
 	/*text-align:center;*/
   }
@@ -173,3 +174,15 @@ box-shadow: 0px 10px 25px rgba(136, 136, 136, 0.48);
 	border: 1px solid rgb(235, 113, 30);
 	  color:white;
 }*/
+.btn-prof-exp-tech-label a, 
+.btn-prof-exp-tech-label a:hover, 
+.btn-prof-exp-tech-label a:active,
+.btn-prof-exp-tech-label a:focus{
+	border-radius: 15px;
+	border: none;
+  background-color: rgb(74, 142, 208);
+  border: 1px solid rgb(74, 142, 208);
+  color:white;
+  font-size: 16px;
+  margin:2px
+}
