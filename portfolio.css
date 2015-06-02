@@ -17,6 +17,7 @@ font-family: 'Asap', sans-serif;
 header{
 	height:70%;
 }
+p { color: #333333; font-size: 18px; line-height: 28px; margin: 0 0 10px; }
 .daddy-container{
 height:100%;
 }
@@ -29,9 +30,7 @@ height:100%;
   font-size: 60px;
   text-align: center;
 }
-.content-inside-diagnal{
-	
-}
+ 
 
 
 
@@ -72,6 +71,7 @@ position: relative;
 img{
 width:100%;
 }
+
 .exp-container{
 	width: 80%;
 	margin: 0 auto 1em auto;
@@ -142,6 +142,14 @@ margin: 50px auto 0 auto;
 width:55%;
 box-shadow: 0px 10px 25px rgba(136, 136, 136, 0.48);
   }
+  .introduction-content{
+  padding: 15px;
+  box-shadow: 0px 5px 40px rgba(97, 209, 117, 0.48);
+  border-top: 7px solid rgba(97, 209, 117,1);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+ 
   .detail-content{
 	padding:15px;
   }
